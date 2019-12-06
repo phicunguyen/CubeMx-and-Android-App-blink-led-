@@ -19,3 +19,6 @@ The packet sending from android app to stm32 as below.
      4. follow bytes are data. 
      5. All the data bytes and including the opcode will be convert to ascii except the '[' and ']'
      6. Every hex byte now become two ascii bytes.
+
+This code does not have any flow control. it could cause the data overwritten if the sending is faster than the receving.
+Every packet send should have a response packet. That will be my goal.
