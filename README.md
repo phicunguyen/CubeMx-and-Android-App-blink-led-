@@ -1,4 +1,4 @@
-# Cubmex-and-Android-App-blink-led-
+# CubeMx-and-Android-App-blink-led-
 This android app send commands over usb to toggle the led on stm32f407-disco every 200ms
 
 How to run it:
